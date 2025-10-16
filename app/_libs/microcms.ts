@@ -1,3 +1,10 @@
+import type {
+  MicroCMSQueries,
+  MicroCMSImage,
+  MicroCMSListContent,
+} from "microcms-js-sdk";
+
+
 export type News = {
   id: string;
   title: string;
@@ -7,3 +14,9 @@ export type News = {
   publishedAt: string;
   createdeat: string;
 };
+
+
+
+export type Category = {
+  name: string;
+} & MicroCMSListContent;
