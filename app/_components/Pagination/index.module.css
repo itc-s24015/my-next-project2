@@ -1,4 +1,4 @@
-/* 
+
 .container {
   display: flex;
   justify-content: center;
@@ -23,4 +23,4 @@
 .current {
   color: var(--color-text-unpainted);
   background-color: var(--color-button-primary);
-} */
+}
